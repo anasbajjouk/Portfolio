@@ -43,7 +43,7 @@ export const Wrapper = styled.footer`
       }
 
        @media ${device.desktopL} {
-        top: 427rem;
+        top: 422rem;
         left: 50%;
         transform: translateX(-50%);
       }

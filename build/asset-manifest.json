@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f39b71c8.chunk.css",
+    "main.js": "/portfolio/static/js/main.9d085015.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9d085015.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.485e71ff.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.485e71ff.js.map",
+    "static/js/2.c2439a25.chunk.js": "/portfolio/static/js/2.c2439a25.chunk.js",
+    "static/js/2.c2439a25.chunk.js.map": "/portfolio/static/js/2.c2439a25.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.e14b60559b41a52a12045415ed5c73f8.js": "/portfolio/precache-manifest.e14b60559b41a52a12045415ed5c73f8.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.f39b71c8.chunk.css.map": "/portfolio/static/css/main.f39b71c8.chunk.css.map",
+    "static/js/2.c2439a25.chunk.js.LICENSE": "/portfolio/static/js/2.c2439a25.chunk.js.LICENSE",
+    "static/media/index.css": "/portfolio/static/media/quantum-webfont.645f25da.woff2",
+    "static/media/html.24845c5c.svg": "/portfolio/static/media/html.24845c5c.svg",
+    "static/media/javascript.a745037d.svg": "/portfolio/static/media/javascript.a745037d.svg",
+    "static/media/nodejs-icon.43376870.svg": "/portfolio/static/media/nodejs-icon.43376870.svg",
+    "static/media/react.f0793d9f.svg": "/portfolio/static/media/react.f0793d9f.svg",
+    "static/media/redux.85772647.svg": "/portfolio/static/media/redux.85772647.svg",
+    "static/media/sass.950c373a.svg": "/portfolio/static/media/sass.950c373a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.485e71ff.js",
+    "static/js/2.c2439a25.chunk.js",
+    "static/css/main.f39b71c8.chunk.css",
+    "static/js/main.9d085015.chunk.js"
+  ]
+}
