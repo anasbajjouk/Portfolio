@@ -13,11 +13,9 @@ const Footer = () => {
   return (
     <>
       <Wrapper>
-        
-          <a className="toTop" href="#top">
+        {/* <a className="toTop" href="#top">
             <FontAwesomeIcon icon={faChevronUp} />
-          </a>
-       
+          </a> */}
 
         <SocialMedia>
           <a
@@ -42,6 +40,10 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faFacebookF} />
+          </a>
+
+          <a className="toTop" href="#top">
+            <FontAwesomeIcon icon={faChevronUp} />
           </a>
         </SocialMedia>
 

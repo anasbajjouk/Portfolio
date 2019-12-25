@@ -117,12 +117,16 @@ const ContactUs = () => {
         <div className="submitButton">
           <Button
             text="Submit"
-            color="#2998ff"
+            // color="#2998ff"
+            // bgColorHover="#2998ff"
+            // border="#2998ff"
+            color="#5643fa"
             bgColor="transparent"
-            bgColorHover="#2998ff"
             colorHover="white"
-            border="#2998ff"
             type="submit"
+            bgColorHover="#5643fa"
+            borderColorHover="#5643fa"
+            border="#5643fa"
           />
         </div>
       </Form>

@@ -95,15 +95,14 @@ export const BackSide = styled(CardSide)`
   transform: rotateY(180deg);
   justify-content: center;
 
-  /* background-image: linear-gradient(
-    to right bottom,
-    ${variable.colorPrimary},
-    ${variable.colorPrimaryDark}
-  ); */
-
-  background: #00d2ff;  
+  /* background: #00d2ff;  
   background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
-  background: linear-gradient(to right top, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right top, #3a7bd5, #00d2ff); */
+
+  background: ${variable.colorPrimaryDark};
+  background: -webkit-linear-gradient(to right top, #438cfa, #5643fa);
+  background: linear-gradient(to right top, #438cfa, #5643fa);
+
 
   ${CardContainer}:hover & {
     transform: rotateY(0);

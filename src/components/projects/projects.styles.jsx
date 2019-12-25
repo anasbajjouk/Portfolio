@@ -2,17 +2,14 @@ import styled from "styled-components";
 import { device, variable } from "../../styles/main";
 
 export const Wrapper = styled.div`
-  /* background: linear-gradient(
-    to right bottom,
-    ${variable.colorPrimary},
-    ${variable.colorPrimaryDark}
-  ); */
+  background: #00d2ff; /* fallback for old browsers */
 
-  /* background: linear-gradient(to right, #00c6ff, #0072ff);
-  background: linear-gradient(to right, #b3ffab, #12fff7); */
-  background: #00d2ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right bottom, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right bottom, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: -webkit-linear-gradient(to right bottom, #3a7bd5, #00d2ff);  
+  background: linear-gradient(to right bottom, #3a7bd5, #00d2ff);  */
+
+  background: ${variable.colorPrimaryDark};
+  background: -webkit-linear-gradient(to right bottom, #438cfa, #5643fa);
+  background: linear-gradient(to right bottom, #438cfa, #5643fa);
 
   text-align: center;
   background-size: cover;
@@ -42,11 +39,11 @@ export const CardsHolder = styled.div`
   @media ${device.laptop} {
     grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
   }
-  
+
   @media ${device.tablet} {
     grid-template-columns: repeat(auto-fit, minmax(49rem, 1fr));
   }
-  
+
   @media ${device.mobileL} {
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
   }

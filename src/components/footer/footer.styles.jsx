@@ -26,58 +26,13 @@ export const Wrapper = styled.footer`
   font-size: 1.7rem;
   text-align: center;
 
+  & .toTop {
+    background: ${variable.colorPrimaryDark};
 
-    & .toTop {
-      position: absolute;
-      color: white;
-      cursor: pointer;
-      background: ${variable.colorPrimaryDark};
-      border-radius: 1px;
-      padding: 2rem;
-      top: 470rem;
-      left: 50%;
-      transform: translateX(-50%);
-
-      &:hover {
-        animation: 1s alternate ${hoverLoop} infinite;
-      }
-
-       @media ${device.desktopL} {
-        top: 422rem;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-
-      @media (max-width:1540px) {
-        top: 470rem;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-
-      @media ${device.laptop} {
-        top: 729.5rem;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-
-      @media ${device.tablet} {
-        top: 714rem;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-     
-      @media ${device.mobileL} {
-        top: 704rem;
-        left: 50%;
-        transform: translateX(-30%);
-      }
-      /*@media ${device.tablet} {
-        bottom: -625rem;
-        left: 50%;
-        transform: translateX(-30%);
-      } */
+    &:hover {
+      animation: 1s alternate ${hoverLoop} infinite;
     }
-  
+  }
 
   @media ${device.tablet} {
     font-size: 1.2rem;

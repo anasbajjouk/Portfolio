@@ -9,25 +9,36 @@ import { HeaderContainer, Paragraph, Logo, Buttons } from "./header.styles";
 const Header = ({ name }) => {
   return (
     <>
-      <HeaderContainer id='top'>
+      <HeaderContainer id="top">
         <Logo>AB</Logo>
 
         <Paragraph highlight="2998ff">
-          Hello, my name&nbsp;<span className="highlight">{name}</span>. <br />
+          Hello, my name is&nbsp;<span className="highlight">{name}</span>.
+          <br />
           I'm a front-end web developer.
           <br />
         </Paragraph>
 
         <Buttons>
           <a href="#aboutme">
-            <Button text="About me" color="white" bgColor="transparent" />
+            <Button
+              text="About me"
+              color="white"
+              bgColor="transparent"
+              bgColorHover="#5643fa"
+              borderColorHover="#5643fa"
+            />
           </a>
 
           <a href="#projects">
-          <Button text="Projects" color="white" bgColor="transparent" />
+            <Button
+              text="Projects"
+              color="white"
+              bgColor="transparent"
+              bgColorHover="#5643fa"
+              borderColorHover="#5643fa"
+            />
           </a>
-
-          
         </Buttons>
       </HeaderContainer>
     </>
