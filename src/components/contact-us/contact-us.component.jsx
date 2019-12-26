@@ -16,7 +16,7 @@ const ContactUs = () => {
     (state, newState) => ({ ...state, ...newState }),
     { name: "", email: "", subject: "", message: "" }
   );
-
+  console.log(process.env.REACT_APP_EMAIL_JS_TEMPLATE)
   const handleSubmit = e => {
     e.preventDefault();
 
@@ -30,9 +30,9 @@ const ContactUs = () => {
     emailjs
       .send(
         "gmail",
-        "portfolio_email_template",
+        `${process.env.REACT_APP_EMAIL_JS_TEMPLATE}`,
         templateParams,
-        "user_aOad334448DOEpC6NExRW"
+        `${process.env.REACT_APP_EMAIL_JS_USER}`
       )
       .then(response => {
         if (response.status === 200) setSuccess(true);
