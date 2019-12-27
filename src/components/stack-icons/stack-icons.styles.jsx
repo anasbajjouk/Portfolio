@@ -17,19 +17,19 @@ export const StackIconsHolder = styled.ul`
     height: 50%;
   }
 
-  @media ${device.mobileL} {
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 0.5fr));
-
-    .svgIcon {
-      width: 50%;
-    }
-  }
-
   @media ${device.laptop} {
     grid-template-columns: repeat(auto-fit, minmax(14.1rem, 0.5fr));
 
     .svgIcon {
       width: 40%;
+    }
+  }
+
+  @media ${device.mobileL} {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 0.5fr));
+
+    .svgIcon {
+      width: 50%;
     }
   }
 `;
