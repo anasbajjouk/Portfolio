@@ -7,11 +7,7 @@ export const HeaderContainer = styled.div`
   justify-items: center;
   align-items: center;
 
-  background-image: /*linear-gradient(
-      to right bottom,
-      rgba(341, 152, 255, .1),
-      rgba(86, 67, 250, .2)
-    ), */ url(https://media.giphy.com/media/aRZ4vTsHnyW6A/source.gif);
+  background-image:  url(https://media.giphy.com/media/aRZ4vTsHnyW6A/source.gif);
 
   background-size: cover;
   background-position: center;

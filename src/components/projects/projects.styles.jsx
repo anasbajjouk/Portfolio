@@ -45,6 +45,7 @@ export const CardsHolder = styled.div`
   }
 
   @media ${device.mobileL} {
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
   }
 `;

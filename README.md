@@ -1,1 +1,7 @@
-Portfolio built using React - hooks and styled Components.
+## Portfolio 
+
+##`built using:` 
+
+    - React
+    - Hooks
+    - Styled Components.

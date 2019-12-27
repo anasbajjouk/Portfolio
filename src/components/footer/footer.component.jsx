@@ -6,6 +6,7 @@ import {
   faFacebookF
 } from "@fortawesome/free-brands-svg-icons";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+
 //Styles
 import { Wrapper, SocialMedia } from "./footer.styles";
 
@@ -13,10 +14,6 @@ const Footer = () => {
   return (
     <>
       <Wrapper>
-        {/* <a className="toTop" href="#top">
-            <FontAwesomeIcon icon={faChevronUp} />
-          </a> */}
-
         <SocialMedia>
           <a
             href="https://github.com/anasbajjouk/"

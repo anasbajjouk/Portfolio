@@ -44,6 +44,7 @@ export const SocialMedia = styled.div`
   list-style: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: baseline;
   align-content: center;
   justify-content: center;
