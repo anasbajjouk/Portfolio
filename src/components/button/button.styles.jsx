@@ -16,7 +16,8 @@ export const ButtonHolder = styled.button`
   outline: none;
 
   &:hover,
-  &:focus {
+  &:focus,
+  &:active {
     background: ${props =>
       props.bgColorHover ? props.bgColorHover : variable.colorPrimary};
     border: 2px solid

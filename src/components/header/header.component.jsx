@@ -13,7 +13,7 @@ const Header = ({ name }) => {
         <Logo>AB</Logo>
 
         <Paragraph highlight="499EEA">
-          Hello, my name is&nbsp;<span className="highlight">{name}</span>.
+          Hello, my name is&nbsp;<br/><span className="highlight">{name}</span>.
           <br />
           I'm a front-end web developer.
           <br />
