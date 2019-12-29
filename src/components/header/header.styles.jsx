@@ -24,6 +24,7 @@ export const Paragraph = styled.p`
 
   .highlight {
     color: #${props => props.highlight};
+    font-weight: bold;
   }
 
   @media ${device.laptop} {

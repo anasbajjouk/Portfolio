@@ -30,7 +30,7 @@ export const FrontSide = styled(CardSide)`
 
   ${CardContainer}:nth-child(even) & {
     background-image: ${props =>
-      props.bgImage ? `url(${props.bgImage})` : variable.colorGreyLight2};
+      props.bgImage ? `url(${props.bgImage})` : "#edf0ee"};
   }
 
   ${CardContainer}:nth-child(odd) & {
@@ -47,7 +47,6 @@ export const FrontSide = styled(CardSide)`
   }
 
   & .block {
-
     ${CardContainer}:nth-child(odd) & {
       background: rgba(255, 255, 255, 0.1);
     }
@@ -95,14 +94,15 @@ export const BackSide = styled(CardSide)`
   transform: rotateY(180deg);
   justify-content: center;
 
-  /* background: #00d2ff;  
-  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
-  background: linear-gradient(to right top, #3a7bd5, #00d2ff); */
 
-  background: ${variable.colorPrimaryDark};
-  background: -webkit-linear-gradient(to right top, #438cfa, #5643fa);
-  background: linear-gradient(to right top, #438cfa, #5643fa);
-
+  background: ${variable.colorSecondary};
+  background: -webkit-linear-gradient(
+    to right top,
+    #2f58a4,
+    #2f58a4 20%,
+    #7eadde 99%
+  );
+  background: linear-gradient(to right top, #2f58a4, #2f58a4 20%, #7eadde 99%);
 
   ${CardContainer}:hover & {
     transform: rotateY(0);

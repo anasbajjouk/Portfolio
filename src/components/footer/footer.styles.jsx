@@ -3,11 +3,20 @@ import { device, variable } from "../../styles/main";
 
 const hoverLoop = keyframes`
 0%{
-  background: ${variable.colorPrimaryDark};
+  background: ${variable.colorSecondary};
 }
 
-50%{
-  background: ${variable.colorPrimary};
+30%{
+  background: ${variable.colorSecondaryLight};
+}
+
+60%{
+  background: ${variable.colorSecondary};
+}
+
+
+90%{
+  background: ${variable.colorSecondaryLight};
 }
 
 100%{
@@ -27,10 +36,10 @@ export const Wrapper = styled.footer`
   text-align: center;
 
   & .toTop {
-    background: ${variable.colorPrimaryDark};
+    background: ${variable.colorSecondary};
 
     &:hover {
-      animation: 1s alternate ${hoverLoop} infinite;
+      animation: 2s alternate ${hoverLoop} infinite;
     }
   }
 

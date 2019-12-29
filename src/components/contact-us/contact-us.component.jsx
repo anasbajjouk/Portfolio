@@ -16,7 +16,7 @@ const ContactUs = () => {
     (state, newState) => ({ ...state, ...newState }),
     { name: "", email: "", subject: "", message: "" }
   );
-  console.log(process.env.REACT_APP_EMAIL_JS_TEMPLATE)
+  
   const handleSubmit = e => {
     e.preventDefault();
 
@@ -120,13 +120,13 @@ const ContactUs = () => {
             // color="#2998ff"
             // bgColorHover="#2998ff"
             // border="#2998ff"
-            color="#5643fa"
+            color="#2F58A4"
             bgColor="transparent"
             colorHover="white"
             type="submit"
-            bgColorHover="#5643fa"
-            borderColorHover="#5643fa"
-            border="#5643fa"
+            bgColorHover="#2F58A4"
+            borderColorHover="#2F58A4"
+            border="#2F58A4"
           />
         </div>
       </Form>

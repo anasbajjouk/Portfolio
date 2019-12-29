@@ -2,15 +2,8 @@ import styled from "styled-components";
 import { device, variable } from "../../styles/main";
 
 export const Wrapper = styled.div`
-  background: #00d2ff; /* fallback for old browsers */
 
-  /* background: -webkit-linear-gradient(to right bottom, #3a7bd5, #00d2ff);  
-  background: linear-gradient(to right bottom, #3a7bd5, #00d2ff);  */
-
-  background: ${variable.colorPrimaryDark};
-  background: -webkit-linear-gradient(to right bottom, #438cfa, #5643fa);
-  background: linear-gradient(to right bottom, #438cfa, #5643fa);
-
+  background: ${variable.colorSecondary};
   text-align: center;
   background-size: cover;
   padding: 15rem 0;

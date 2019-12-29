@@ -12,7 +12,7 @@ const Header = ({ name }) => {
       <HeaderContainer id="top">
         <Logo>AB</Logo>
 
-        <Paragraph highlight="2998ff">
+        <Paragraph highlight="499EEA">
           Hello, my name is&nbsp;<span className="highlight">{name}</span>.
           <br />
           I'm a front-end web developer.
@@ -25,8 +25,8 @@ const Header = ({ name }) => {
               text="About me"
               color="white"
               bgColor="transparent"
-              bgColorHover="#5643fa"
-              borderColorHover="#5643fa"
+              bgColorHover="#2F58A4"
+              borderColorHover="#2F58A4"
             />
           </a>
 
@@ -35,8 +35,8 @@ const Header = ({ name }) => {
               text="Projects"
               color="white"
               bgColor="transparent"
-              bgColorHover="#5643fa"
-              borderColorHover="#5643fa"
+              bgColorHover="#2F58A4"
+              borderColorHover="#2F58A4"
             />
           </a>
         </Buttons>
