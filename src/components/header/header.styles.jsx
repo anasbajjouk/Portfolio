@@ -32,20 +32,28 @@ export const Paragraph = styled.p`
   }
 
   @media ${device.laptop} {
-    font-size: 4.5rem;
+    font-size: 6rem;
+  }
+
+  @media (max-width: 850px) and (orientation: landscape) {
+    font-size: 3rem;
   }
 
   @media ${device.tablet} {
     font-size: 4rem;
   }
 
-  @media ${device.mobileL} and (orientation: landscape) {
+  @media (max-width: 750px) and (orientation: landscape) {
     font-size: 2.5rem;
   }
 
-  @media (max-width: 1010px) and (orientation: landscape) {
+  @media ${device.mobileL} {
     font-size: 2.5rem;
   }
+
+  @media ${device.mobileS} {
+      margin-bottom: 13rem;
+    }
 `;
 
 export const Logo = styled.span`
