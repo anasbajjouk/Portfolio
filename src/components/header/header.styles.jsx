@@ -7,7 +7,7 @@ export const HeaderContainer = styled.div`
   justify-items: center;
   align-items: center;
 
-  background-image:  url(https://media.giphy.com/media/aRZ4vTsHnyW6A/source.gif);
+  background-image: url(https://media.giphy.com/media/aRZ4vTsHnyW6A/source.gif);
 
   background-size: cover;
   background-position: center;
@@ -27,21 +27,33 @@ export const Paragraph = styled.p`
     font-weight: bold;
   }
 
-  @media ${device.laptop} {
+  @media ${device.laptopL} {
     font-size: 6rem;
+  }
+
+  @media ${device.laptop} {
+    font-size: 4.5rem;
   }
 
   @media ${device.tablet} {
     font-size: 4rem;
   }
 
-  @media ${device.mobileL} {
+  @media ${device.mobileL} and (orientation: landscape) {
+    font-size: 2.5rem;
+  }
+
+  @media (max-width: 1010px) and (orientation: landscape) {
     font-size: 2.5rem;
   }
 `;
 
 export const Logo = styled.span`
   font-family: quantumregular;
+  
+  @media (max-width: 1010px) and (orientation: landscape) {
+    font-size: 3rem;
+  }
 `;
 
 export const Buttons = styled.div`
@@ -50,9 +62,15 @@ export const Buttons = styled.div`
   justify-content: space-evenly;
   margin-top: -20rem;
 
-  @media ${device.laptop} {
+  @media ${device.laptopL} {
     width: 100%;
     margin-top: -50rem;
+    justify-content: space-evenly;
+  }
+
+  @media ${device.laptop} {
+    width: 70%;
+    margin-top: -22rem;
     justify-content: space-evenly;
   }
 
@@ -62,6 +80,10 @@ export const Buttons = styled.div`
     margin-top: -20rem;
   }
 
+  @media (max-width: 1010px) and (orientation: landscape) {
+    width: 60%;
+    margin-top: -1rem;
+  }
   @media (min-width: ${size.laptopL}) {
     width: 30%;
     margin-top: -35rem;
