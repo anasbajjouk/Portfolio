@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { device, variable } from "../../styles/main";
 
 export const Wrapper = styled.div`
-
   background: ${variable.colorSecondary};
   text-align: center;
   background-size: cover;
