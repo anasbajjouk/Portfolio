@@ -78,4 +78,13 @@ export const PROJECTS = [
     stack: "React - Redux - Firebase - HTML5 - CSS3 - Semantic-UI",
     bgImage: "//live.staticflickr.com/65535/49869760013_1c7832d9d2_z.jpg",
   },
+
+  {
+    id: 10,
+    name: "COVID-19 app",
+    github: "https://github.com/anasbajjouk/covid-19",
+    demo_URL: "https://anasbajjouk.github.io/covid-19",
+    stack: "React - HTML5 - CSS3 - Material-UI",
+    bgImage: "//live.staticflickr.com/65535/49914192182_3d16051333_z.jpg",
+  },
 ];
