@@ -15,9 +15,9 @@ const About = () => {
           <TitleHeader title="About Me" />
           <p>
             A bachelor holder and a passionate self-taught web developer with
-            over 3 years of experience in web developement building web apps
+            over 4 years of experience in web developement building web apps
             using the lastest modern technologies - Specialized in React. I am
-            looking forward to grabbing a chance to enhance my skills,
+            looking forward in grabbing a chance to enhance my skills,
             experiences, and capabilities in a dynamic and stable workplace with
             the cutting edge of technologies.
           </p>

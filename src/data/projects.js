@@ -87,4 +87,12 @@ export const PROJECTS = [
     stack: "React - HTML5 - CSS3 - Material-UI",
     bgImage: "//live.staticflickr.com/65535/49914192182_3d16051333_z.jpg",
   },
+  {
+    id: 11,
+    name: "Where are you?",
+    github: "https://github.com/anasbajjouk/where-are-you",
+    demo_URL: "https://anasbajjouk.github.io/where-are-you",
+    stack: "React - Hooks - HTML5 - SCSS",
+    bgImage: "//live.staticflickr.com/65535/50393005428_8087f2235b_n.jpg",
+  },
 ];
