@@ -60,7 +60,7 @@ export const FrontSide = styled(CardSide)`
     padding: 2.3rem 0;
     opacity: 0.7;
     height: 25%;
-
+    overflow: hidden;
     & h4 {
       font-size: 2.3rem;
       text-transform: uppercase;

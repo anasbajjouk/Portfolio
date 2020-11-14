@@ -1,50 +1,5 @@
 export const PROJECTS = [
   {
-    id: 1,
-    name: "Crown Shop",
-    github: "https://github.com/anasbajjouk/crown-shop",
-    demo_URL: "https://e-crown.herokuapp.com",
-    stack: "HTML5 - CSS3 - React - Redux - StyledComponents - Firebase - Thunk",
-    bgImage: "//live.staticflickr.com/65535/49287865256_4fe436e9a8_c.jpg",
-  },
-
-  {
-    id: 2,
-    name: "Tetrominos Game",
-    github: "https://github.com/anasbajjouk/react-tetrominos",
-    demo_URL: "https://anasbajjouk.github.io/react-tetrominos/",
-    stack: "HTML5 - CSS3 - REACT(Hooks, memo) - Styled components",
-    bgImage: "//live.staticflickr.com/65535/49287450638_b679ef8f38_z.jpg",
-  },
-
-  {
-    id: 3,
-    name: "Shopping List",
-    github: "https://github.com/anasbajjouk/MERN-shopping-list",
-    demo_URL: "https://shopping-list-mern-app.herokuapp.com/",
-    stack: "MongoDb - Express - React - NodeJs",
-    bgImage: "//live.staticflickr.com/65535/49288287937_d08afeaa5e_z.jpg",
-  },
-
-  {
-    id: 4,
-    name: "ChatKat",
-    github: "https://github.com/anasbajjouk/chat-app-chatkit",
-    demo_URL: "https://anasbajjouk.github.io/chat-app-chatkit/",
-    stack: "React - Push chatKit API",
-    bgImage: "//live.staticflickr.com/65535/49295724901_79cc866816_z.jpg",
-  },
-
-  {
-    id: 5,
-    name: "Monster Rolodex",
-    github: "https://github.com/anasbajjouk/react-monsters-rolodex",
-    demo_URL: "https://anasbajjouk.github.io/react-monsters-rolodex/",
-    stack: "HTML5 - CSS3 - REACT",
-    bgImage: "//live.staticflickr.com/65535/49288321932_6ed5e048a7_z.jpg",
-  },
-
-  {
     id: 6,
     name: "BookEvery",
     github: "https://github.com/anasbajjouk/bookevery-template",
@@ -58,9 +13,8 @@ export const PROJECTS = [
     github: "https://github.com/anasbajjouk/UPH",
     demo_URL: "https://anasbajjouk.github.io/UPH/",
     stack: "HTML5 - CSS3 (Sass)",
-    bgImage: "//live.staticflickr.com/65535/49295724826_6e5de2c293_z.jpg",
+    bgImage: "//live.staticflickr.com/65535/50602017647_b9ff16645f.jpg",
   },
-
   {
     id: 8,
     name: "e-tours",
@@ -69,23 +23,61 @@ export const PROJECTS = [
     stack: "HTML5 - CSS3 (Sass) Float method ",
     bgImage: "//live.staticflickr.com/65535/49295917692_bb6b8155fd_z.jpg",
   },
-
+  {
+    id: 5,
+    name: "Monster Rolodex",
+    github: "https://github.com/anasbajjouk/react-monsters-rolodex",
+    demo_URL: "https://anasbajjouk.github.io/react-monsters-rolodex/",
+    stack: "HTML5 - CSS3 - REACT",
+    bgImage: "//live.staticflickr.com/65535/50601901006_297e6376a4.jpg",
+  },
+  {
+    id: 4,
+    name: "ChatKat",
+    github: "https://github.com/anasbajjouk/chat-app-chatkit",
+    demo_URL: "https://anasbajjouk.github.io/chat-app-chatkit/",
+    stack: "React - Push chatKit API",
+    bgImage: "//live.staticflickr.com/65535/49295724901_79cc866816_z.jpg",
+  },
+  {
+    id: 3,
+    name: "Shopping List",
+    github: "https://github.com/anasbajjouk/MERN-shopping-list",
+    demo_URL: "https://shopping-list-mern-app.herokuapp.com/",
+    stack: "MongoDb - Express - React - NodeJs",
+    bgImage: "//live.staticflickr.com/65535/50602017582_883bf8a40c.jpg",
+  },
+  {
+    id: 2,
+    name: "Tetrominos Game",
+    github: "https://github.com/anasbajjouk/react-tetrominos",
+    demo_URL: "https://anasbajjouk.github.io/react-tetrominos/",
+    stack: "HTML5 - CSS3 - REACT(Hooks, memo) - Styled components",
+    bgImage: "//live.staticflickr.com/65535/49287450638_b679ef8f38_z.jpg",
+  },
+  {
+    id: 1,
+    name: "Crown Shop",
+    github: "https://github.com/anasbajjouk/crown-shop",
+    demo_URL: "https://e-crown.herokuapp.com",
+    stack: "HTML5 - CSS3 - React - Redux - StyledComponents - Firebase - Thunk",
+    bgImage: "//live.staticflickr.com/65535/50602017572_37acd26a6c.jpg",
+  },
   {
     id: 9,
     name: "Slack like app",
     github: "https://github.com/anasbajjouk/slack-react-app",
     demo_URL: "https://slack-like-app-3cc5c.web.app/login",
     stack: "React - Redux - Firebase - HTML5 - CSS3 - Semantic-UI",
-    bgImage: "//live.staticflickr.com/65535/49869760013_1c7832d9d2_z.jpg",
+    bgImage: "//live.staticflickr.com/65535/50601109003_ed0f56814e.jpg",
   },
-
   {
     id: 10,
     name: "COVID-19 app",
     github: "https://github.com/anasbajjouk/covid-19",
     demo_URL: "https://anasbajjouk.github.io/covid-19",
     stack: "React - HTML5 - CSS3 - Material-UI",
-    bgImage: "//live.staticflickr.com/65535/49914192182_3d16051333_z.jpg",
+    bgImage: "//live.staticflickr.com/65535/50602017567_da50e36b2d.jpg",
   },
   {
     id: 11,
@@ -93,6 +85,15 @@ export const PROJECTS = [
     github: "https://github.com/anasbajjouk/where-are-you",
     demo_URL: "https://anasbajjouk.github.io/where-are-you",
     stack: "React - Hooks - HTML5 - SCSS",
-    bgImage: "//live.staticflickr.com/65535/50393005428_8087f2235b_n.jpg",
+    bgImage: "//live.staticflickr.com/65535/50601850216_c7c040a910.jpg",
+  },
+  {
+    id: 12,
+    name: "Spotify Web Clone",
+    github: "https://github.com/anasbajjouk/spotify-react-clone",
+    demo_URL: "https://brave-swartz-d038da.netlify.app/",
+    stack:
+      "React (Hooks) - HTML5 - CSS - Styled Components - React Router - Redux - Spotify API - Material UI (Icons)",
+    bgImage: "//live.staticflickr.com/65535/50601850236_dd91c071d7.jpg",
   },
 ];

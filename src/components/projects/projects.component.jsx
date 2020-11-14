@@ -26,7 +26,7 @@ const Projects = () => {
               key={value.id}
               bgImage={value.bgImage}
             />
-          ))}
+          )).reverse()}
         </CardsHolder>
       </Wrapper>
     </>
